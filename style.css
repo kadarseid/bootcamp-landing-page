@@ -122,3 +122,23 @@ body {
   width: 50px;
   margin-right: 1rem;
 }
+
+.section--accent {
+  background-color: #0af;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.free-section__title {
+  color: white;
+  margin: 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.section__description {
+  color: white;
+  max-width: 300px;
+}

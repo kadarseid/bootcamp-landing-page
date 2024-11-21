@@ -93,3 +93,32 @@ body {
   bottom: 1rem;
   width: 30px;
 }
+
+.section {
+  padding: 2rem;
+}
+
+.section__title {
+  margin: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+
+.curriculum-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 450px));
+  justify-content: center;
+  gap: 10px 50px;
+}
+
+.curriculum-grid__item {
+  display: flex;
+  align-items: center;
+}
+
+.curriculum-grid__item img {
+  width: 50px;
+  margin-right: 1rem;
+}
